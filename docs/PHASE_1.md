@@ -7,9 +7,10 @@ Jaren BD is the business-development oversight hub for **Momentum Data Solutions
 1. **Property & asset registry:** inventory each approved property, product, service, asset, campaign, and landing page. Track canonical URL, owning team, lifecycle stage, audience, value proposition, CTA, opportunity owner, priorities, review date, and commercial status.
 2. **Landing-page oversight:** connect page-level lead capture, referral/source attribution, conversion goals, campaign identifiers, and responsible owner. No fabricated analytics; show an unconnected state until verified telemetry exists.
 3. **Portfolio opportunities:** tie prospects and partner opportunities to specific MDS assets and offerings, including per-property pipeline and approved next steps.
-4. **Prospect & partnership management:** research, deduplicate and qualify leads; record evidence, sources, relevance, disposition, owner and follow-up.
-5. **Outreach approvals:** draft, review, approve, reject, and audit outbound messages. Never send without specific human authorization and configured provider.
-6. **Executive reporting:** verified pipeline metrics by asset, property, landing page, campaign and owner; no invented activity.
+4. **Prospect management:** research, deduplicate and qualify leads; record evidence, sources, relevance, disposition, owner and follow-up.
+5. **Strategic partnership program:** identify and evaluate potential partners for each approved property or business asset, document strategic fit, proposed collaboration model, partner contacts, due diligence, risks, responsible owner, approvals, onboarding status, mutual commitments and relationship health. Track lifecycle from identified → researched → contacted → discovery → proposed → approved → active → renewal/closed; never present preliminary conversations as signed partnerships.
+6. **Outreach approvals:** draft, review, approve, reject, and audit outbound messages. Never send without specific human authorization and configured provider.
+7. **Executive reporting:** verified pipeline metrics by asset, property, landing page, campaign and owner; no invented activity.
 
 ## Operating boundaries
 - **Jaren BD:** growth strategy, prospecting, partnerships, conversion opportunities, approved outreach.
@@ -34,15 +35,16 @@ These names are **proposed seed entries**, not claims of discovered live pages, 
 3. Identity and Access controls, least privilege and tenant isolation enforced in API and database.
 4. Verified canonical URL and ownership registry; avoid collecting secrets or customer PII in Git.
 5. Authorized analytics connectors and attribution, with distinct data provenance and measurement periods.
-6. ICP scoring and prospect workflows linked to particular assets and landing pages.
-7. Human-approved outreach and consent/suppression controls.
+6. ICP scoring, prospect workflows and strategic partner evaluations linked to particular assets and landing pages.
+7. Human-approved outreach, partnership review and consent/suppression controls.
 8. Read-only MMS/GLASS/MI integration contracts with permission-scoped endpoints.
 9. Automated tests, permission checks, security scan, deployment review and production rollout.
 
 ## Acceptance criteria
 - Every active property has a verified owner and canonical URL.
 - Metrics include source, measurement period and freshness.
-- No outreach sent without human approval.
+- No outreach sent or partnership commitments made without human approval.
+- Partnership status must distinguish prospects, discussions, approved agreements, active partners and renewals.
 - No fake pipeline, contacts or revenue displayed.
 - No external property changes are made by Jaren BD without proper owner authorization.
 - Secrets and personal/contact information are excluded from the public code repository.
