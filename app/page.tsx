@@ -1,9 +1,12 @@
 const modules = [
+  { name: 'Property & Asset Registry', description: 'Oversee business-development ownership, status, and commercial goals for each approved property, application, and asset.' },
+  { name: 'Landing Page Performance', description: 'Review traffic, conversion events, lead sources, and calls to action once analytics are connected.' },
   { name: 'Prospect Registry', description: 'Manage companies, contacts, owners, sources, and qualification.' },
   { name: 'Lead Qualification', description: 'Score fit and document verified supporting evidence.' },
   { name: 'Partnership Pipeline', description: 'Track potential partners, next steps, and collaboration opportunities.' },
   { name: 'Outreach Approvals', description: 'Review outbound drafts before any message is sent.' },
   { name: 'Integrations', description: 'Connect MDS, MMS, and CRM services when configured.' },
+  { name: 'Portfolio Opportunities', description: 'Connect products and landing pages to campaign opportunities, pipeline value, and follow-up owners.' },
   { name: 'Activity & Reporting', description: 'Track verified outreach, responses, meetings, and pipeline outcomes.' },
 ];
 const metrics = [
